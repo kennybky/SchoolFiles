@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Grades</title>
+<style>
+  td { text-align: center;}
+</style>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script>
+$(document).ready(function() {
+
+$("td:not(:last-child)").dblclick(edit);
+
+
+
+
+$("td:last-child").dblclick(grade);
+
+
+
+function edit() {
+var text = $(this).text();
+$(this).replaceWith('<input type="text" value="'+ text + '"/>');
+
+$("input").blur(function() {
+var text = $(this).val();
+var replace = $("<td>" +  text + "</td>");
+replace.dblclick(edit);
+$(this).replaceWith(replace);
+
+});
+}
+
+function grade() {
+$(this).replaceWith('<select><option>A</option><option>B</option><option>C</option><option>D</option><option>F</option</select>');
+$("select").blur(function() {
+var text = $(this).val();
+var replace = $("<td>" +  text + "</td>");
+replace.dblclick(grade);
+$(this).replaceWith(replace);
+});
+
+}
+
+});
+
+
+
+
+
+
+
+
+</script>
+</head>
+<body>
+<table border="1">
+<tr><th>Name</th><th>Homework 1</th><th>Homework 2</th><th>Grade</th></tr>
+<tr><td>John</td><td>90</td><td>80</td><td>B</td></tr>
+<tr><td>Jane</td><td>90</td><td>100</td><td>A</td></tr>
+</table>
+</body>
+</html>
+

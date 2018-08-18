@@ -1,0 +1,5 @@
+node_modules
+node_modules/
+.DS_Store
+CS4660/cifar-100/test
+CS4660/cifar-100/train

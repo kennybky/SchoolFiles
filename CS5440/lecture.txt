@@ -1,0 +1,89 @@
+login as: cs5440s9
+cs5440s9@cs1.calstatela.edu's password:
+Welcome to Ubuntu 14.04.5 LTS (GNU/Linux 3.13.0-119-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+
+  System information as of Tue May 30 11:25:36 PDT 2017
+
+  System load:  0.02               Processes:           167
+  Usage of /:   24.6% of 76.70GB   Users logged in:     13
+  Memory usage: 19%                IP address for eth0: 130.182.4.92
+  Swap usage:   0%
+
+  Graph this data and manage this system at:
+    https://landscape.canonical.com/
+
+New release '16.04.2 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Last login: Tue May 30 11:25:36 2017 from 10.85.172.183
+cs5440s9@cs1:~$ ls -1
+examples.desktop
+public_html
+cs5440s9@cs1:~$ mkdir CS5440
+cs5440s9@cs1:~$ cd CS5440
+cs5440s9@cs1:~/CS5440$ ls -1
+cs5440s9@cs1:~/CS5440$ ls -l
+total 0
+cs5440s9@cs1:~/CS5440$ cd..
+cd..: command not found
+cs5440s9@cs1:~/CS5440$ pico myTime.c
+  GNU nano 2.2.6                                                   File: myTime.c                                                                                                  Modified
+
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
+#include <time.h>
+
+using namespace std;
+
+main()
+{
+int i;
+time_t time_local;
+for (int i = 0; i<10; i++)
+{
+time(&time_local);
+cout << ctime(&time_local) <<end1;
+sleep(1);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help                    ^O WriteOut                    ^R Read File                   ^Y Prev Page                   ^K Cut Text                    ^C Cur Pos
+^X Exit                        ^J Justify                     ^W Where Is                    ^V Next Page                   ^U UnCut Text                  ^T To Spell

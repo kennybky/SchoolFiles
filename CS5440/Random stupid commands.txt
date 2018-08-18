@@ -1,0 +1,1 @@
+ cp /home/jguo/CS5440/1_CS_540_Part_1_Process_2017_Summer.pdf .

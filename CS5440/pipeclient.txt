@@ -1,0 +1,45 @@
+using System;
+using System.IO.Pipes;
+using System.Text;
+
+namespace Named_Pipe_Client
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            while (true)
+            {
+                NamedPipeClientStream clientStream = new NamedPipeClientStream(".", "myPipe", PipeDirection.InOut);
+                clientStream.Connect(60);
+                Console.WriteLine("Enter something: ");
+                string line = Console.ReadLine();
+                if (line.ToLower() == "quit")
+                    break;
+
+                byte[] buffer = ASCIIEncoding.ASCII.GetBytes(line);
+                clientStream.Write(buffer, 0, buffer.Length);
+                
+                Console.WriteLine("Waiting For response.... ");
+
+                byte[] newbuffer = new byte[255];
+                clientStream.Read(newbuffer, 0, 255);
+                string request = ASCIIEncoding.ASCII.GetString(newbuffer);
+                Console.WriteLine("Server: Client said '" + request);
+                request = request.Trim('\0');
+                if (request.ToLower() == "close")
+                    break;
+
+                clientStream.Close();
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+

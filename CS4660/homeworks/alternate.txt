@@ -1,0 +1,44 @@
+Empty Room(7f3dc077574c013d98b2de8f735058b4):Empty Room(ef296fb452b14eb1cf579fa69d0fe7da):0
+Empty Room(ef296fb452b14eb1cf579fa69d0fe7da):Room with cage(cbff26e3f081b1573981f717f10e7061):20
+Room with cage(cbff26e3f081b1573981f717f10e7061):Room with cage(816fdf15b029e3ca2f4ba323bf6757d2):20
+Room with cage(816fdf15b029e3ca2f4ba323bf6757d2):Empty Room(116bac38467b764ffa2d0bf62990100b):0
+Empty Room(116bac38467b764ffa2d0bf62990100b):Dire Tombs(5ee799b3e945d52438ea507a31f96275):0
+Dire Tombs(5ee799b3e945d52438ea507a31f96275):Room with cage(42986d4cbde19e4319ab0a2c1e5a61e9):0
+Room with cage(42986d4cbde19e4319ab0a2c1e5a61e9):Empty Room(bc59dd94f397de7cc7eeca02752d7a15):0
+Empty Room(bc59dd94f397de7cc7eeca02752d7a15):Dark Room(f8d7ec2b694290b9f78f8afa7e690b4b):20
+Dark Room(f8d7ec2b694290b9f78f8afa7e690b4b):Room with cage(e22cffe2464b067c164b52aa82562a40):20
+Room with cage(e22cffe2464b067c164b52aa82562a40):Dark Room(fd3bfe68d4469e378c8f27304b5b6bdd):0
+Dark Room(fd3bfe68d4469e378c8f27304b5b6bdd):Empty Room(07e9b41a5750a8a703e50e2147e3b4e7):0
+Empty Room(07e9b41a5750a8a703e50e2147e3b4e7):Dire Tombs(15fd980b830cd4aa5d518e3df71aa6b1):0
+Dire Tombs(15fd980b830cd4aa5d518e3df71aa6b1):Room with cage(66d2a976b926dfe017a065dc18f6c0c9):20
+Room with cage(66d2a976b926dfe017a065dc18f6c0c9):Room with cage(880332e22a6519d76a4fde9138ead0e8):0
+Room with cage(880332e22a6519d76a4fde9138ead0e8):Empty Room(004caf1cc93f415e407336d9ac09e48e):0
+Empty Room(004caf1cc93f415e407336d9ac09e48e):Dark Room(b55da649495d78cc194f9d990fda4abb):0
+Dark Room(b55da649495d78cc194f9d990fda4abb):Chamber(31567c6f68ed25ce5fcb5e2f7e8e016c):0
+Chamber(31567c6f68ed25ce5fcb5e2f7e8e016c):Empty Room(e50de67eea8915d52bf2c2c632a0e0ed):0
+Empty Room(e50de67eea8915d52bf2c2c632a0e0ed):Dark Room(f1f131f647621a4be7c71292e79613f9):-30
+
+
+
+
+
+
+Dijkstra Path:
+
+Empty Room(7f3dc077574c013d98b2de8f735058b4):Dire Tombs(44dfaae131fa9d0a541c3eb790b57b00): 0
+Dire Tombs(44dfaae131fa9d0a541c3eb790b57b00):Dire Tombs(15fd980b830cd4aa5d518e3df71aa6b1): 0
+Dire Tombs(15fd980b830cd4aa5d518e3df71aa6b1):Room with cage(66d2a976b926dfe017a065dc18f6c0c9): 20
+Room with cage(66d2a976b926dfe017a065dc18f6c0c9):Dark Room(f8d7ec2b694290b9f78f8afa7e690b4b): 20
+Dark Room(f8d7ec2b694290b9f78f8afa7e690b4b):Room with cage(e22cffe2464b067c164b52aa82562a40): 20
+Room with cage(e22cffe2464b067c164b52aa82562a40):Dark Room(02e3bb466319aa0cd87a0ff4c3e38b4e): 0
+Dark Room(02e3bb466319aa0cd87a0ff4c3e38b4e):Room with cage(cbff26e3f081b1573981f717f10e7061): 20
+Room with cage(cbff26e3f081b1573981f717f10e7061):Room with cage(816fdf15b029e3ca2f4ba323bf6757d2): 20
+Room with cage(816fdf15b029e3ca2f4ba323bf6757d2):Empty Room(116bac38467b764ffa2d0bf62990100b): 0
+Empty Room(116bac38467b764ffa2d0bf62990100b):Dire Tombs(5ee799b3e945d52438ea507a31f96275): 0
+Dire Tombs(5ee799b3e945d52438ea507a31f96275):Room with cage(42986d4cbde19e4319ab0a2c1e5a61e9): 0
+Room with cage(42986d4cbde19e4319ab0a2c1e5a61e9):Empty Room(7449794c0b43c75eb61cc8a6a9473431): 0
+Empty Room(7449794c0b43c75eb61cc8a6a9473431):Empty Room(1b3e842eaed4356b233bfb37d9a47d87): 0
+Empty Room(1b3e842eaed4356b233bfb37d9a47d87):Chamber(83bb5112a32d2fe8790e7a9df8a152ae): 0
+Chamber(83bb5112a32d2fe8790e7a9df8a152ae):Dark Room(f1f131f647621a4be7c71292e79613f9): -30
+
+TotalHP: 70

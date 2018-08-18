@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\kenny\\Desktop\\CS4660\\cifar-100\\cifar-100-model"
+all_model_checkpoint_paths: "C:\\Users\\kenny\\Desktop\\CS4660\\cifar-100\\cifar-100-model"

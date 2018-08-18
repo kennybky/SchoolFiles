@@ -1,0 +1,25 @@
+13:- 10 lines of code are displayed.
+_____
+14: For node0 a =3, b = 0; node1 a =0, b =3; node1 and 2 are 0 for a and b
+_____
+15:output is 10
+___
+16: all nodes receive outut
+___
+17: output is 45;
+_____
+18:output is (a = 5);
+0 5
+1 5
+2 5
+3 5
+__
+19: It broadcats only to node0
+output is;
+0 3
+1 0
+2 0
+3 0
+_____
+20:
+Nothing is displayed. None of the nodes receive any dataS

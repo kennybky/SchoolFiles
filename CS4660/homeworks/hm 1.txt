@@ -1,0 +1,85 @@
+https://github.com/csula-students/cs4660-fall-2017-kennybky/pull/6
+
+
+Bonus
+
+1. Runtime analysis
+
+a) construct_graph_from_file(graph, file_path):
+	Time Complexity: O(N^2) 
+b) getNode(data, nodes):
+	Time Complexity = O(N)
+
+A) class AdjacencyList
+	__init__(self): Time complexity = O(1)
+	adjacent(self, node_1, node_2): Time complexity = O(N)
+	neighbors(self, node): Time complexity = O(1)
+	add_node(self, node): Time complexity = O(N)
+	remove_node(self, node): Time complexity = O(N^2)
+	add_edge(self, edge): Time Complexity = O(N)
+	remove_edge(self, edge): Time Complexity = O(N)
+
+B) class AdjacencyMatrix
+	__init__(self): Time complexity = O(1)
+	adjacent(self, node_1, node_2): Time complexity = O(N)
+	neighbors(self, node): Time complexity = O(N)
+	add_node(self, node): Time complexity = O(N)
+	remove_node(self, node): Time complexity = O(N) 
+	add_edge(self, edge): Time Complexity = O(N)
+	remove_edge(self, edge): Time Complexity = O(N)
+	__get_node_index(self, node): Time Complexity = O(N)
+
+C) class ObjectOriented
+	__init__(self): Time complexity = O(1)
+	adjacent(self, node_1, node_2): Time complexity = O(N)
+	neighbors(self, node): Time complexity = O(N)
+	add_node(self, node): Time complexity = O(N)
+	remove_node(self, node): Time complexity = O(N^2) 
+	add_edge(self, edge): Time Complexity = O(N)
+	remove_edge(self, edge): Time Complexity = O(N^2)
+
+
+
+2. CHESS PEAs
+i)  performance measure:- Win, Accurate, Fast  
+ii) environment :- Other Players, Board, Chess Piece Positons
+iii)actuator:- Move chess piece position, End game 
+iv) sensor:- Clock, Magnetics
+
+
+3 CHESS States
+initial state:- The first two rows are filled with white pieces and the last two rows are filles with black pieces
+
+possible actions:- 
+	-A pawns move one step forward within the bounds of the board or captures an opponent piece diagonally
+	-The queen moves and captures infinite steps forward, backwards, sideways and diagonally within the bounds of the board
+	-The king moves and caputures one step forward, backwards, sideways and diagonally within the bounds of the board
+	-A bishop moves and captures infinite steps diagonally within the bounds of the board
+	-A Castle/Rook moves and captures infinite steps forward and backwards within the bounds of the board
+	-A knight moves and captures in an L-Shaped fashion within the bounds on the board
+
+transition model:- White makes the first move, after which black alternates. No piece may make a move that will put it's king in the caputure range of an opponent piece.
+			If a pawn lands on its opponent side, it gets an upgrade to any offcial (Except to a King). If a piece gets caputured the captor takes 
+		the position of the piece. When a piece 'checks' its opponent king meaning it moves it piece in a position that threatens to capture the king, 
+		The opponent must move its king or move another piece to block that piece's path
+
+goal test:- If the king is being checked and there are no more possible moves. The game is over. If both players make the same moves consecutively 3 times, 
+		the game ends in a stalemate, if there are only two kings left, stalemate. If there are no moves left, stalemate
+
+path cost:- Each move costs at most 8 Squares, at least 1 square
+
+4. Chess Enviroment Type:-
+	Fully Observable :- Because you can see the entire state of the game at once
+	Multiagents :- Two Players play against each other
+	Deterministic :- Each move determines the next state
+	Discrete: Number of states in game is countable
+	Adversarial:- The enviroment goes against you, It tries to defeat you
+
+
+
+
+
+
+
+
+

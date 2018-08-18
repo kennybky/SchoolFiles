@@ -1,0 +1,6 @@
+(: "") == takes a character and appends it to the front of an empty character array,
+ and returns the resulting character array
+ 
+ (`divMod` 10) = partial application
+ 
+ uncurry is a lambda expression

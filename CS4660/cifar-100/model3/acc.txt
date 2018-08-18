@@ -1,0 +1,3 @@
+train-53.1
+valid-50.0
+loss-1.471

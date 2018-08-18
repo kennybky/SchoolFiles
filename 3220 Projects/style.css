@@ -1,0 +1,99 @@
+body{
+	background: #eeffee;
+	
+}
+.profile{
+	text-align:right;
+	margin-top:-40px;
+}
+
+.head{
+	background: #ff2222;
+	padding:10px;
+	text-align:left;
+	border: 1px solid black;
+}
+
+
+div .head {
+	padding:2px;
+	background: #ff2222;
+	text-align:left;
+	border: none;
+}
+
+
+.block{
+	display:flex;
+	margin-top:20px;
+	column-count: 2;
+	width: 100%;
+	box-sizing:border-box;
+}
+
+.block1{
+	margin:0;
+	box-sizing:border-box;
+	border:solid;
+	min-height: 600px;
+	width:20%;
+	margin:1% 1% 1% 1%;
+	text-align:center;
+}
+
+.login{
+	border:solid;
+	height: auto;
+    width: 1000px;
+    position: relative;
+    left: 15%;
+   
+ }
+    
+.block2{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	border:solid;
+	min-height: 600px;
+	width:75%;
+	margin: 1%;
+}
+table {
+	border-collapse: collapse;
+	width:100%;
+}
+
+td, th, tr{
+	height:50px;
+	border: 1px black solid;
+	
+	text-align: center;
+}
+.form {
+	border:solid;
+	text-align:center;
+	padding:10px;
+}
+
+.form input {
+	font-size:1.2em;
+	
+}
+th {
+	background: #ff2222;
+}
+ a{
+ text-decoration:none;
+ }
+ img{
+ 	float:left;
+ }
+ 
+ .edit{
+ 	float:center;
+ }
+ a:hover {
+ text-decoration: underline;
+ color:black;
+ }

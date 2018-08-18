@@ -1,0 +1,14 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "CS4220 Lab 2, exercises on node modules and crypto",
+  "main": "4220Lab2.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Adekola Togunloju",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}

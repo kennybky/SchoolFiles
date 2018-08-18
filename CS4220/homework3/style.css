@@ -1,0 +1,82 @@
+
+    body  {
+        text-align: center;
+        background-color:whitesmoke;
+        padding:0;
+        margin:0;
+    }
+
+    li {
+        text-align: left;
+        line-height:2em;
+    }
+
+    header {
+        background-color: white;
+        margin: 0 0 0.5em 0;
+        padding:1em;
+        border-bottom:0.4em groove gray;
+    }
+
+    #chuck{
+        margin:0;
+        padding:0;
+        width:100%;
+    }
+
+    nav {
+        display:flex;
+        flex-flow:row wrap;
+        justify-content: space-around;
+    }
+
+    .query-box {
+        width:40%;
+        background-color: hsl(219, 34%, 85%);
+        padding:1.5em;
+        margin: 0.5em 0;
+    }
+
+    #search {
+        background: white;
+        width:80%;
+        position:relative;
+        left:10%;
+        padding: 1em 4em;
+        box-sizing: border-box;
+        border:1px groove gray;
+    }
+#fact{
+    position: relative;
+    top: 5em;
+    left: 20%;
+    width: 25%;
+    padding: 1em 4em;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 25%;
+    border:1px groove gray;
+}
+    .loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 4vw;
+  height: 4vw;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  position:fixed;
+  left:48%;
+  top:45vh;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

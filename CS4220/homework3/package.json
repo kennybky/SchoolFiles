@@ -1,0 +1,15 @@
+{
+  "name": "homework3",
+  "version": "1.0.0",
+  "description": "Chuck Norris Facts",
+  "main": "js/app.js",
+  "dependencies": {
+    "require": "^2.4.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adekola Togunloju",
+  "license": "ISC"
+}
